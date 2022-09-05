@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15;
+  font-family: "Inter", sans-serif;
+}
+
+.product_detail {
+  padding-top: 70px;
+}
+.product_detail .container .row {
+  display: flex;
+}
+.product_detail .container .row .left {
+  width: 384px;
+  height: 355px;
+  text-align: center;
+  margin-left: 20px;
+  background-color: #F8F8F8;
+}
+.product_detail .container .row .left img {
+  width: 300px;
+  margin-top: 20px;
+}
+.product_detail .container .row .right {
+  width: 60%;
+  margin-left: 80px;
+}
+.product_detail .container .row .right h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000;
+  line-height: 36px;
+}
+.product_detail .container .row .right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: 19px;
+}
+.product_detail .container .row .right h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  color: #1ED90E;
+  line-height: 29px;
+}
+.product_detail .container .row .right .size {
+  margin-left: -10px;
+}
+.product_detail .container .row .right .size a {
+  text-decoration: none;
+  border: 1px solid black;
+  background: #CCCCCC;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 29px;
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.product_detail .container .row .right h3 {
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 36px;
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #FC0303;
+}
+.product_detail .container .row .right .group-input {
+  margin: 10px 0;
+}
+.product_detail .container .row .right .group-input .disable {
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 36px;
+  background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.product_detail .container .row .right .group-input .input {
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 36px;
+  width: 42px;
+  height: 36px;
+  left: 597px;
+  top: 377px;
+  text-align: center;
+  border: 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: #000;
+}
+.product_detail .container .row .right .group-button {
+  width: 175px;
+  height: 64px;
+  left: 527px;
+  top: 427px;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+}
+.product_detail .container .row .right .group-button button {
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 29px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 17px 0 0 22px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}

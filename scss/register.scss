@@ -1,0 +1,61 @@
+@import 'template_scss/page';
+span {
+    color: red;
+}
+
+.register {
+    margin-top: 50px;
+    h2 {
+        text-align: center;
+        size: 40px;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        .col-l {
+            input {
+                border: none;
+                border-bottom: 4px solid #AE18E2;
+                outline: none;
+                width: 400px;
+                padding: 10px 0;
+                font-size: 20px;
+            }
+        }
+        .col-r {
+            input {
+                border: none;
+                border-bottom: 4px solid #AE18E2;
+                outline: none;
+                padding: 10px 0;
+                padding-right: 200px;
+                font-size: 20px;
+            }
+            .gender {
+                margin-top: 33px;
+                font-size: 20px;
+                padding-right: 20px;
+                .form-check {
+                    padding: 0;
+                }
+                input {
+                    margin: 0 60px;
+                    border: 2px solid #AE18E2;
+                    margin-bottom: 80px;
+                }
+            }
+            .submit {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: #AE18E2;
+                    font-size: 20px;
+                    padding: 10px 80px;
+                }
+            }
+        }
+    }
+}

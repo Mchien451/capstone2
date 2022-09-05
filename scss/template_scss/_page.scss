@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15;
+    font-family: "Inter", sans-serif;
+}
+
+// $c
+$text-c1-light: #fff;
+$text-c1-dark: #000;
+$text-c1-success: #1ED90E;
+$text-c1-danger: #FC0303;
+$text-c1-secondary: #CBC9C9;
+// $fz
+$text-xs: 13px;
+$text-base: 16px;
+$text-xl: 18px;
+$text-1xl: 20px;
+$text-2xl: 24px;
+$text-3xl: 30px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+// $fw
+$text-light: 300;
+$text-regular: 400;
+$text-medium: 500;
+$text-semibold: 600;
+$text-bold: 700;
+
+$bg-dark: #000;
+
+@mixin text($fz: $text-base, $fw: $text-regular, $c: $text-c1-dark) {
+    font-size: $fz;
+    font-weight: $fw;
+    color: $c;
+}

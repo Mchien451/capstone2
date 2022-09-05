@@ -1,0 +1,136 @@
+@import 'template_scss/page';
+
+
+.product_detail {
+    padding-top: 70px;
+
+    .container {
+        .row {
+            display: flex;
+
+            .left {
+                width: 384px;
+                height: 355px;
+                text-align: center;
+                margin-left: 20px;
+
+                // border: 1px solid black;
+                background-color: #F8F8F8;
+
+                img {
+                    width: 300px;
+                    margin-top: 20px;
+
+
+                }
+            }
+
+            .right {
+                width: 60%;
+                margin-left: 80px;
+
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    @include text($text-3xl, $text-light, $text-c1-dark);
+                    line-height: 36px;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    @include text($text-base, $text-regular, $text-c1-dark);
+                    line-height: 19px;
+                }
+
+                h4 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    @include text($text-3xl, $text-medium, $text-c1-success);
+
+                    line-height: 29px;
+
+
+                }
+
+                .size {
+                    margin-left: -10px;
+
+                    a {
+                        text-decoration: none;
+                        border: 1px solid black;
+                        background: #CCCCCC;
+                        // color: #1E1D1D;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        line-height: 29px;
+                        margin: 0 10px;
+                        @include text($text-2xl, $text-semibold, $text-c1-dark);
+
+                    }
+                }
+
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    line-height: 36px;
+                    margin: 10px 0;
+                    @include text($text-3xl, $text-semibold, $text-c1-danger);
+
+                }
+
+                .group-input {
+                    margin: 10px 0;
+
+                    .disable {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        line-height: 36px;
+                        background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+                        width: 40px;
+                        height: 40px;
+                        @include text($text-3xl, $text-regular, $text-c1-light);
+
+                    }
+
+                    .input {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        line-height: 36px;
+                        width: 42px;
+                        height: 36px;
+                        left: 597px;
+                        top: 377px;
+                        text-align: center;
+                        border: 0;
+                        @include text($text-3xl, $text-regular, $text-c1-dark);
+                    }
+                }
+
+                .group-button {
+                    width: 175px;
+                    height: 64px;
+                    left: 527px;
+                    top: 427px;
+                    background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+
+
+                    button {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        line-height: 29px;
+                        border: 0;
+                        background-color: rgba(0, 0, 0, 0);
+                        margin: 17px 0 0 22px;
+                        @include text($text-2xl, $text-medium, $text-c1-light);
+
+
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
